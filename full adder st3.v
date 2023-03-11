@@ -1,3 +1,4 @@
+/*structure 3 full adder */
 module FA_st3(ss,cc,aa,bb,cin);
 	input aa,bb,cin;
 	output ss,cc;
