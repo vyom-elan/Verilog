@@ -1,8 +1,8 @@
-#full adder
+/*full adder*/
 
-module FA_st(s,c,a,b,cin);          #cin is the carry from previous o/p
+module FA_st(s,c,a,b,cin);          /*#cin is the carry from previous o/p*/
 	input a,b,cin;
-	output s,c;			#sum and carry
+	output s,c;			/*sum and carry*/
 	wire N1, N2, N3, N4;
 	xor xor1(N1,a,b);
 	xor xor2(S,N1,Cin);
