@@ -9,6 +9,7 @@ module des;
 		end
 		$display ("data[7:0] = 0x%0h", data[7:0]);
 		$display ("data[15:8] = 0x%0h", data[15:8]);
+		$display ("data[15:8] = 0x%0h", data[20:14])
 		$display ("data[23:16] = 0x%0h", data[23:16]);
 		$display ("data[31:24] = 0x%0h", data[31:24]);
 	end
