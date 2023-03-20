@@ -6,7 +6,7 @@ module ff(clk,d,ce,pre,q);
 	always @(posedge clk or posedge pre)
 	begin
 		if(pre)
-			q<=4'b1111;
+			q<=4'b111;
 		else if (ce)
 			q<=d;
 	end
