@@ -1,4 +1,4 @@
-module flop(clk,d,q);
+module ff(clk,d,q);
 	input clk,d;
 	output q;
 	reg q;
