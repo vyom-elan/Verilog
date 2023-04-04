@@ -1,5 +1,4 @@
 /*Test bench to verify full adder design*/
-
 /*For behavioral design*/
 
 'timescale 1ns/100ps'   /*time unit is 1nano second and precision is 100ps*/
