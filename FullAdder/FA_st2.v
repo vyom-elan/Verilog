@@ -1,3 +1,4 @@
+//Structural design
 module FA_st2(s,c,a,b,cin);
 	input a,b,cin;
 	output s,c;
