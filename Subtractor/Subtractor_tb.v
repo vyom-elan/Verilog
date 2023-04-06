@@ -1,4 +1,4 @@
-module Full_Subtractor_3_tb;
+module Subtractor_tb;
 	wire D, B;
 	reg X, Y, Z;
 	Full_Subtractor_3 Instance0 (D, B, X, Y, Z);
