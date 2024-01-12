@@ -118,8 +118,8 @@ module timer #(parameter  CC = 1,
                                 (dig_cnt == 2'b10) ? min_ones : min_tens;
 
         // BCD to 7SEG Decoder
-        reg [7:0]   ca_7seg;
-        wire[7:0]   cc_7seg = ~ ca_7seg;
+        reg [6:0]   ca_7seg;
+        wire[6:0]   cc_7seg = ~ ca_7seg;
         always @* begin
             ca_7seg = 7'b0000000;
             case(bcd_mux)
